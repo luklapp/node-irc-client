@@ -1,0 +1,24 @@
+{
+  "name": "AwesomeIrc",
+  "version": "1.0.0",
+  "description": "Awesome IRC Client",
+  "main": "index.html",
+  "dependencies": {
+    "irc": "^0.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Klappert",
+  "license": "ISC",
+  "window": {
+      "title": "Awesome IRC Client",
+      "toolbar": true,
+      "frame": true,
+      "width": 1024,
+      "height": 400,
+      "min_width": 400,
+      "min_height": 200
+    }
+}

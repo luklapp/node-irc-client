@@ -1,0 +1,9 @@
+## Awesome IRC Client
+
+- Nachrichten schreiben/empfangen
+- Userliste (updated bei jedem join/quit)
+- Smileys
+- Verlauf in Datei exportieren
+- Name über Formular eingeben
+- Loading-Screen (Animation von http://tobiasahlin.com/spinkit/)
+- Private Nachrichten versenden (@username Nachricht) / empfangen (hervorgehoben)

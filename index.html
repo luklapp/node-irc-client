@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Awesome IRC Client</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+
+    <div id="loading">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+
+    <div id="startScreen">
+      <div id="startOptions">
+        
+      <p>Bitte gib deinen Benutzernamen ein!</p>
+
+        <input id="nickInput">
+        <button id="join">Speichern</button>
+      </div>
+    </div>
+
+    <div id="messageBar">
+      <input id="input" />
+      <button id="toggleEmoticons">:)</button> 
+      <button id="sendButton">Senden</button> 
+      <input id="fileDialog" type="file" /> 
+      <button id="fileDialogButton">Verlauf speichern</button>
+    </div>
+
+    <div id="emoticons"></div>
+
+    <div id="userList"></div>
+
+    <div id="messages"></div>
+
+    <script>
+
+    require('./modules/app');
+
+    </script>
+
+
+  </body>
+</html>
